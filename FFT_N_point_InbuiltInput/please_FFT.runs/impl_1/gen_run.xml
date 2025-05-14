@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tftg256-1" LaunchTime="1747114558">
+  <File Type="ROUTE-PWR" Name="fft_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="fft.tcl"/>
+  <File Type="ROUTE-PWR-SUM" Name="fft_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="fft_reports.tcl"/>
+  <File Type="BITSTR-MSK" Name="fft.msk"/>
+  <File Type="ROUTE-CLK" Name="fft_clock_utilization_routed.rpt"/>
+  <File Type="RDI-RDI" Name="fft.vdi"/>
+  <File Type="ROUTE-BUS-SKEW" Name="fft_bus_skew_routed.rpt"/>
+  <File Type="PA-DCP" Name="fft.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="fft_bus_skew_postroute_physopted.pb"/>
+  <File Type="BG-BIT" Name="fft.bit"/>
+  <File Type="BG-DRC" Name="fft.drc"/>
+  <File Type="BG-BGN" Name="fft.bgn"/>
+  <File Type="BG-BIN" Name="fft.bin"/>
+  <File Type="BITSTR-RBT" Name="fft.rbt"/>
+  <File Type="BITSTR-NKY" Name="fft.nky"/>
+  <File Type="BITSTR-BMM" Name="fft_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="fft.mmi"/>
+  <File Type="BITSTR-SYSDEF" Name="fft.sysdef"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="fft.ltx"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="OPT-DRC" Name="fft_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="fft.hwdef"/>
+  <File Type="PLACE-IO" Name="fft_io_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="fft_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="fft_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="fft_control_sets_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="fft_incremental_reuse_pre_placed.rpt"/>
+  <File Type="ROUTE-DRC" Name="fft_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="fft_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="fft_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="fft_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="fft_route_status.pb"/>
+  <File Type="ROUTE-DCP" Name="fft_routed.dcp"/>
+  <File Type="ROUTE-ERROR-DCP" Name="fft_routed_error.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="fft_routed_bb.dcp"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="fft_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="fft_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="fft_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="fft_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="fft_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="fft_bus_skew_routed.rpx"/>
+  <File Type="OPT-DCP" Name="fft_opt.dcp"/>
+  <File Type="PLACE-DCP" Name="fft_placed.dcp"/>
+  <File Type="PWROPT-DCP" Name="fft_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="fft_postplace_pwropt.dcp"/>
+  <File Type="PHYSOPT-DCP" Name="fft_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="fft_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="fft_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="fft_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="fft_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="fft_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="fft_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="fft_bus_skew_postroute_physopted.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="fft_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="fft_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="fft_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="fft_methodology_drc_routed.rpx"/>
+  <File Type="PDI-FILE" Name="fft.pdi"/>
+  <File Type="BOOT-PDI-FILE" Name="fft_boot.pdi"/>
+  <File Type="PL-PDI-FILE" Name="fft_pld.pdi"/>
+  <File Type="RCFI_FILE" Name="fft.rcfi"/>
+  <File Type="CFI_FILE" Name="fft.cfi"/>
+  <File Type="RNPI_FILE" Name="fft.rnpi"/>
+  <File Type="NPI_FILE" Name="fft.npi"/>
+  <File Type="RBD_FILE" Name="fft.rbd"/>
+  <File Type="ROUTE-RQS" Name="fft_routed.rqs"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS" Name="fft_postroute_physopted.rqs"/>
+  <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/fft.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="fft"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/fft.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/new/fft.xdc"/>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2024"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+    <Step Id="write_device_image"/>
+  </Strategy>
+</GenRun>

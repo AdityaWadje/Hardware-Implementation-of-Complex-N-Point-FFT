@@ -1,0 +1,495 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Mon May 12 00:56:40 2025
+# Process ID: 28400
+# Current directory: C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.runs/synth_1
+# Command line: vivado.exe -log fft.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source fft.tcl
+# Log file: C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.runs/synth_1/fft.vds
+# Journal file: C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.runs/synth_1\vivado.jou
+# Running On        :Raman
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :26100
+# Processor Detail  :12th Gen Intel(R) Core(TM) i7-12700
+# CPU Frequency     :2112 MHz
+# CPU Physical cores:12
+# CPU Logical cores :20
+# Host memory       :16833 MB
+# Swap memory       :11283 MB
+# Total Virtual     :28117 MB
+# Available Virtual :2022 MB
+#-----------------------------------------------------------
+source fft.tcl -notrace
+Command: synth_design -top fft -part xc7a35tftg256-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Device 21-403] Loading part xc7a35tftg256-1
+INFO: [Device 21-9227] Part: xc7a35tftg256-1 does not have CEAM library.
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 29648
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 1360.887 ; gain = 446.852
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'fft' [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:23]
+INFO: [Synth 8-6157] synthesizing module 'radix2_butterfly' [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:346]
+	Parameter M bound to: 8 - type: integer 
+	Parameter N bound to: 8 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'cordic_dynamic' [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:522]
+	Parameter N bound to: 8 - type: integer 
+	Parameter M bound to: 8 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'cordic_dynamic' (0#1) [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:522]
+INFO: [Synth 8-226] default block is never used [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:408]
+INFO: [Synth 8-6155] done synthesizing module 'radix2_butterfly' (0#1) [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:346]
+WARNING: [Synth 8-689] width (5) of port connection 'fft_index' does not match port width (3) of module 'radix2_butterfly' [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:160]
+WARNING: [Synth 8-689] width (5) of port connection 'fft_index' does not match port width (3) of module 'radix2_butterfly' [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:160]
+WARNING: [Synth 8-689] width (5) of port connection 'fft_index' does not match port width (3) of module 'radix2_butterfly' [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:160]
+WARNING: [Synth 8-689] width (5) of port connection 'fft_index' does not match port width (3) of module 'radix2_butterfly' [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:160]
+WARNING: [Synth 8-689] width (5) of port connection 'fft_index' does not match port width (3) of module 'radix2_butterfly' [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:160]
+WARNING: [Synth 8-689] width (5) of port connection 'fft_index' does not match port width (3) of module 'radix2_butterfly' [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:160]
+WARNING: [Synth 8-689] width (5) of port connection 'fft_index' does not match port width (3) of module 'radix2_butterfly' [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:160]
+WARNING: [Synth 8-689] width (5) of port connection 'fft_index' does not match port width (3) of module 'radix2_butterfly' [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:160]
+WARNING: [Synth 8-689] width (5) of port connection 'fft_index' does not match port width (3) of module 'radix2_butterfly' [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:160]
+WARNING: [Synth 8-689] width (5) of port connection 'fft_index' does not match port width (3) of module 'radix2_butterfly' [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:160]
+WARNING: [Synth 8-689] width (5) of port connection 'fft_index' does not match port width (3) of module 'radix2_butterfly' [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:160]
+WARNING: [Synth 8-689] width (5) of port connection 'fft_index' does not match port width (3) of module 'radix2_butterfly' [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:160]
+WARNING: [Synth 8-324] index 9 out of range [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:76]
+WARNING: [Synth 8-324] index 10 out of range [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:76]
+WARNING: [Synth 8-324] index 11 out of range [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:76]
+WARNING: [Synth 8-6090] variable 'finish_radix' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:82]
+INFO: [Synth 8-6155] done synthesizing module 'fft' (0#1) [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:23]
+WARNING: [Synth 8-6014] Unused sequential element prod_real_reg was removed.  [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:428]
+WARNING: [Synth 8-6014] Unused sequential element prod_imag_reg was removed.  [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:429]
+WARNING: [Synth 8-6014] Unused sequential element b_twiddled_real_reg was removed.  [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:432]
+WARNING: [Synth 8-6014] Unused sequential element b_twiddled_imag_reg was removed.  [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:436]
+WARNING: [Synth 8-6014] Unused sequential element rev_reg was removed.  [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:247]
+WARNING: [Synth 8-6014] Unused sequential element temp_reg was removed.  [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:248]
+WARNING: [Synth 8-4767] Trying to implement RAM 'buffer_real_reg' in registers. Block RAM or DRAM implementation is not possible; see log for reasons.
+Reason is one or more of the following :
+	1: Write port has constant address. 
+	2: No valid read/write found for RAM. 
+RAM "buffer_real_reg" dissolved into registers
+WARNING: [Synth 8-4767] Trying to implement RAM 'buffer_imag_reg' in registers. Block RAM or DRAM implementation is not possible; see log for reasons.
+Reason is one or more of the following :
+	1: Write port has constant address. 
+	2: No valid read/write found for RAM. 
+RAM "buffer_imag_reg" dissolved into registers
+WARNING: [Synth 8-7129] Port reset in module cordic_dynamic is either unconnected or has no load
+WARNING: [Synth 8-7129] Port start in module cordic_dynamic is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1484.117 ; gain = 570.082
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1484.117 ; gain = 570.082
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1484.117 ; gain = 570.082
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.022 . Memory (MB): peak = 1484.117 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/constrs_1/new/fft.xdc]
+Finished Parsing XDC File [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/constrs_1/new/fft.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/constrs_1/new/fft.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/fft_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/fft_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1584.465 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 1584.465 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 1584.465 ; gain = 670.430
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tftg256-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 1584.465 ; gain = 670.430
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 1584.465 ; gain = 670.430
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'radix2_butterfly'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    IDLE |                             0001 |                               00
+             WAIT_CORDIC |                             0010 |                               01
+                 COMPUTE |                             0100 |                               10
+                  OUTPUT |                             1000 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'radix2_butterfly'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 1584.465 ; gain = 670.430
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   32 Bit       Adders := 25    
+	   2 Input   17 Bit       Adders := 12    
+	   2 Input   16 Bit       Adders := 24    
+	   2 Input    9 Bit       Adders := 1     
+	   3 Input    8 Bit       Adders := 24    
+	   4 Input    8 Bit       Adders := 24    
+	   2 Input    5 Bit       Adders := 1     
+	   2 Input    4 Bit       Adders := 1     
++---Registers : 
+	                8 Bit    Registers := 120   
+	                1 Bit    Registers := 25    
++---Muxes : 
+	   2 Input   13 Bit        Muxes := 1     
+	   3 Input   13 Bit        Muxes := 1     
+	   8 Input    9 Bit        Muxes := 2     
+	   9 Input    8 Bit        Muxes := 24    
+	   2 Input    8 Bit        Muxes := 24    
+	   4 Input    1 Bit        Muxes := 24    
+	   8 Input    1 Bit        Muxes := 10    
+	   2 Input    1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-3332] Sequential element (FSM_onehot_state_reg[3]) is unused and will be removed from module radix2_butterfly.
+WARNING: [Synth 8-3332] Sequential element (FSM_onehot_state_reg[2]) is unused and will be removed from module radix2_butterfly.
+WARNING: [Synth 8-3332] Sequential element (FSM_onehot_state_reg[1]) is unused and will be removed from module radix2_butterfly.
+WARNING: [Synth 8-3332] Sequential element (FSM_onehot_state_reg[0]) is unused and will be removed from module radix2_butterfly.
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'real_out_reg[7]__0/Q' [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:87]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:87]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:87]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'real_out_reg[6]__0/Q' [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:87]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:87]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:87]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'real_out_reg[5]__0/Q' [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:87]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:87]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:87]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'real_out_reg[4]__0/Q' [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:87]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:87]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:87]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'real_out_reg[3]__0/Q' [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:87]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:87]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:87]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'real_out_reg[2]__0/Q' [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:87]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:87]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:87]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'real_out_reg[1]__0/Q' [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:87]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:87]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:87]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'real_out_reg[0]__0/Q' [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:87]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:87]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:87]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'imag_out_reg[7]__0/Q' [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:88]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:88]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:88]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'imag_out_reg[6]__0/Q' [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:88]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:88]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:88]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'imag_out_reg[5]__0/Q' [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:88]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:88]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:88]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'imag_out_reg[4]__0/Q' [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:88]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:88]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:88]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'imag_out_reg[3]__0/Q' [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:88]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:88]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:88]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'imag_out_reg[2]__0/Q' [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:88]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:88]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:88]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'imag_out_reg[1]__0/Q' [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:88]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:88]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:88]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'imag_out_reg[0]__0/Q' [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:88]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:88]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:88]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'finish_reg__0/Q' [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:79]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:79]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:79]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'real_data_out_reg[7][7]__0/Q' [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:71]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:71]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:71]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'real_data_out_reg[7][6]__0/Q' [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:71]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:71]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:71]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'real_data_out_reg[7][5]__0/Q' [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:71]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:71]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:71]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'real_data_out_reg[7][4]__0/Q' [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:71]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:71]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:71]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'real_data_out_reg[7][3]__0/Q' [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:71]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:71]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:71]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'real_data_out_reg[7][2]__0/Q' [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:71]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:71]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:71]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'real_data_out_reg[7][1]__0/Q' [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:71]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:71]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:71]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'real_data_out_reg[7][0]__0/Q' [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:71]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:71]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:71]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'real_data_out_reg[0][7]__0/Q' [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:71]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:71]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:71]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'real_data_out_reg[0][6]__0/Q' [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:71]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:71]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:71]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'real_data_out_reg[0][5]__0/Q' [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:71]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:71]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:71]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'real_data_out_reg[0][4]__0/Q' [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:71]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:71]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:71]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'real_data_out_reg[0][3]__0/Q' [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:71]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:71]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:71]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'real_data_out_reg[0][2]__0/Q' [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:71]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:71]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:71]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'real_data_out_reg[0][1]__0/Q' [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:71]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:71]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:71]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'real_data_out_reg[0][0]__0/Q' [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:71]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:71]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:71]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'real_data_out_reg[1][7]__0/Q' [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:71]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:71]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:71]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'real_data_out_reg[1][6]__0/Q' [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:71]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:71]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:71]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'real_data_out_reg[1][5]__0/Q' [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:71]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:71]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:71]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'real_data_out_reg[1][4]__0/Q' [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:71]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:71]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:71]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'real_data_out_reg[1][3]__0/Q' [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:71]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:71]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:71]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'real_data_out_reg[1][2]__0/Q' [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:71]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:71]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:71]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'real_data_out_reg[1][1]__0/Q' [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:71]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:71]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:71]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'real_data_out_reg[1][0]__0/Q' [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:71]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:71]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:71]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'real_data_out_reg[2][7]__0/Q' [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:71]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:71]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:71]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'real_data_out_reg[2][6]__0/Q' [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:71]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:71]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:71]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'real_data_out_reg[2][5]__0/Q' [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:71]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:71]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:71]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'real_data_out_reg[2][4]__0/Q' [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:71]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:71]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:71]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'real_data_out_reg[2][3]__0/Q' [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:71]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:71]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:71]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'real_data_out_reg[2][2]__0/Q' [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:71]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:71]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:71]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'real_data_out_reg[2][1]__0/Q' [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:71]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:71]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:71]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'real_data_out_reg[2][0]__0/Q' [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:71]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:71]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:71]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'real_data_out_reg[3][7]__0/Q' [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:71]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:71]
+INFO: [Common 17-14] Message 'Synth 8-6859' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:71]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:71]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:71]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:71]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:71]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:71]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:71]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:71]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:71]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:71]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:71]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:71]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:71]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:71]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:71]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:71]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:71]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:71]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:71]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:71]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:71]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:71]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:71]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:71]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:71]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:71]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:71]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:71]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:71]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:71]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:71]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:71]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:89]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:89]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:89]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:89]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:89]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:89]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:89]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:89]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:89]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:86]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:86]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:86]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:72]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:72]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:72]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:72]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:72]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:72]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sources_1/new/fft.v:72]
+INFO: [Common 17-14] Message 'Synth 8-6858' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 1584.465 ; gain = 670.430
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:16 ; elapsed = 00:00:16 . Memory (MB): peak = 1584.465 ; gain = 670.430
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:00:16 . Memory (MB): peak = 1584.465 ; gain = 670.430
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:16 ; elapsed = 00:00:16 . Memory (MB): peak = 1584.465 ; gain = 670.430
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1584.465 ; gain = 670.430
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1584.465 ; gain = 670.430
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1584.465 ; gain = 670.430
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1584.465 ; gain = 670.430
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1584.465 ; gain = 670.430
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1584.465 ; gain = 670.430
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |OBUF |    17|
++------+-----+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1584.465 ; gain = 670.430
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 858 critical warnings and 5 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:12 ; elapsed = 00:00:17 . Memory (MB): peak = 1584.465 ; gain = 570.082
+Synthesis Optimization Complete : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1584.465 ; gain = 670.430
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1584.465 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1584.465 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: bdaed323
+INFO: [Common 17-83] Releasing license: Synthesis
+25 Infos, 31 Warnings, 200 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+INFO: [Common 17-600] The following parameters have non-default value.
+tcl.statsThreshold
+INFO: [runtcl-6] Synthesis results are not added to the cache due to CRITICAL_WARNING
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1584.465 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.runs/synth_1/fft.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file fft_utilization_synth.rpt -pb fft_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Mon May 12 00:57:12 2025...

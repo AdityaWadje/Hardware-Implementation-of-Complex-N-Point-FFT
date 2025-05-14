@@ -1,0 +1,346 @@
+Time resolution is 1 ps
+Time7: 55000 ns
+rReal1 =    0, rImag1 =    8
+rReal2 =    4, rImag2 =    4
+rReal_1 =    4, rImag_1 =   12
+rReal_2 =   -4, rImag_2 =    4
+wReal =  127, wImag =    0, index = 0
+Time7: 55000 ns
+rReal1 =    1, rImag1 =    7
+rReal2 =    5, rImag2 =    3
+rReal_1 =    6, rImag_1 =   10
+rReal_2 =   -4, rImag_2 =    4
+wReal =  127, wImag =    0, index = 0
+Time7: 55000 ns
+rReal1 =    2, rImag1 =    6
+rReal2 =    6, rImag2 =    2
+rReal_1 =    8, rImag_1 =    8
+rReal_2 =   -4, rImag_2 =    4
+wReal =  127, wImag =    0, index = 0
+Time7: 55000 ns
+rReal1 =    3, rImag1 =    5
+rReal2 =    7, rImag2 =    1
+rReal_1 =   10, rImag_1 =    6
+rReal_2 =   -4, rImag_2 =    4
+wReal =  127, wImag =    0, index = 0
+Time7: 55000 ns
+rReal1 =    0, rImag1 =    8
+rReal2 =    2, rImag2 =    6
+rReal_1 =    2, rImag_1 =   14
+rReal_2 =   -2, rImag_2 =    2
+wReal =  127, wImag =    0, index = 0
+Time7: 55000 ns
+rReal1 =    4, rImag1 =    4
+rReal2 =    6, rImag2 =    2
+rReal_1 =    6, rImag_1 =   -2
+rReal_2 =    2, rImag_2 =   10
+wReal =    0, wImag = -127, index = 2
+Time7: 55000 ns
+rReal1 =    1, rImag1 =    7
+rReal2 =    3, rImag2 =    5
+rReal_1 =    4, rImag_1 =   12
+rReal_2 =   -2, rImag_2 =    2
+wReal =  127, wImag =    0, index = 0
+Time7: 55000 ns
+rReal1 =    5, rImag1 =    3
+rReal2 =    7, rImag2 =    1
+rReal_1 =    6, rImag_1 =   -4
+rReal_2 =    4, rImag_2 =   10
+wReal =    0, wImag = -127, index = 2
+Time7: 55000 ns
+rReal1 =    0, rImag1 =    8
+rReal2 =    1, rImag2 =    7
+rReal_1 =    1, rImag_1 =   15
+rReal_2 =   -1, rImag_2 =    1
+wReal =  127, wImag =    0, index = 0
+Time7: 55000 ns
+rReal1 =    2, rImag1 =    6
+rReal2 =    3, rImag2 =    5
+rReal_1 =    8, rImag_1 =    7
+rReal_2 =   -4, rImag_2 =    5
+wReal =   89, wImag =  -89, index = 1
+Time7: 55000 ns
+rReal1 =    4, rImag1 =    4
+rReal2 =    5, rImag2 =    3
+rReal_1 =    7, rImag_1 =   -1
+rReal_2 =    1, rImag_2 =    9
+wReal =    0, wImag = -127, index = 2
+Time7: 55000 ns
+rReal1 =    6, rImag1 =    2
+rReal2 =    7, rImag2 =    1
+rReal_1 =    2, rImag_1 =   -4
+rReal_2 =   10, rImag_2 =    8
+wReal =  -89, wImag =  -89, index = 3
+t = 0, j = 0, y = 0
+buffer_real[0] =    4, buffer_img[0] =   12
+buffer_real[4] =   -4, buffer_img[4] =    4
+t = 0, j = 1, y = 0
+buffer_real[1] =    6, buffer_img[1] =   10
+buffer_real[5] =   -4, buffer_img[5] =    4
+t = 0, j = 2, y = 0
+buffer_real[2] =    8, buffer_img[2] =    8
+buffer_real[6] =   -4, buffer_img[6] =    4
+t = 0, j = 3, y = 0
+buffer_real[3] =   10, buffer_img[3] =    6
+buffer_real[7] =   -4, buffer_img[7] =    4
+t = 1, j = 0, y = 0
+buffer_real[8] =    2, buffer_img[8] =   14
+buffer_real[10] =   -2, buffer_img[10] =    2
+t = 1, j = 0, y = 1
+buffer_real[12] =    6, buffer_img[12] =   -2
+buffer_real[14] =    2, buffer_img[14] =   10
+t = 1, j = 1, y = 0
+buffer_real[9] =    4, buffer_img[9] =   12
+buffer_real[11] =   -2, buffer_img[11] =    2
+t = 1, j = 1, y = 1
+buffer_real[13] =    6, buffer_img[13] =   -4
+buffer_real[15] =    4, buffer_img[15] =   10
+t = 2, j = 0, y = 0
+buffer_real[16] =    1, buffer_img[16] =   15
+buffer_real[17] =   -1, buffer_img[17] =    1
+t = 2, j = 0, y = 1
+buffer_real[18] =    8, buffer_img[18] =    7
+buffer_real[19] =   -4, buffer_img[19] =    5
+t = 2, j = 0, y = 2
+buffer_real[20] =    7, buffer_img[20] =   -1
+buffer_real[21] =    1, buffer_img[21] =    9
+t = 2, j = 0, y = 3
+buffer_real[22] =    2, buffer_img[22] =   -4
+buffer_real[23] =   10, buffer_img[23] =    8
+Time2: 75000 ns, state: 2
+Time7: 145000 ns
+rReal1 =    4, rImag1 =   12
+rReal2 =   -4, rImag2 =    4
+rReal_1 =    0, rImag_1 =   16
+rReal_2 =    8, rImag_2 =    8
+wReal =  127, wImag =    0, index = 0
+Time7: 145000 ns
+rReal1 =    6, rImag1 =   10
+rReal2 =   -4, rImag2 =    4
+rReal_1 =    2, rImag_1 =   14
+rReal_2 =   10, rImag_2 =    6
+wReal =  127, wImag =    0, index = 0
+Time7: 145000 ns
+rReal1 =    8, rImag1 =    8
+rReal2 =   -4, rImag2 =    4
+rReal_1 =    4, rImag_1 =   12
+rReal_2 =   12, rImag_2 =    4
+wReal =  127, wImag =    0, index = 0
+Time7: 145000 ns
+rReal1 =   10, rImag1 =    6
+rReal2 =   -4, rImag2 =    4
+rReal_1 =    6, rImag_1 =   10
+rReal_2 =   14, rImag_2 =    2
+wReal =  127, wImag =    0, index = 0
+Time7: 145000 ns
+rReal1 =    4, rImag1 =   12
+rReal2 =    8, rImag2 =    8
+rReal_1 =   12, rImag_1 =   20
+rReal_2 =   -4, rImag_2 =    4
+wReal =  127, wImag =    0, index = 0
+Time7: 145000 ns
+rReal1 =   -4, rImag1 =    4
+rReal2 =   -4, rImag2 =    4
+rReal_1 =    0, rImag_1 =    8
+rReal_2 =   -8, rImag_2 =    0
+wReal =    0, wImag = -127, index = 2
+Time7: 145000 ns
+rReal1 =    6, rImag1 =   10
+rReal2 =   10, rImag2 =    6
+rReal_1 =   16, rImag_1 =   16
+rReal_2 =   -4, rImag_2 =    4
+wReal =  127, wImag =    0, index = 0
+Time7: 145000 ns
+rReal1 =   -4, rImag1 =    4
+rReal2 =   -4, rImag2 =    4
+rReal_1 =    0, rImag_1 =    8
+rReal_2 =   -8, rImag_2 =    0
+wReal =    0, wImag = -127, index = 2
+Time7: 145000 ns
+rReal1 =    4, rImag1 =   12
+rReal2 =    6, rImag2 =   10
+rReal_1 =   10, rImag_1 =   22
+rReal_2 =   -2, rImag_2 =    2
+wReal =  127, wImag =    0, index = 0
+Time7: 145000 ns
+rReal1 =    8, rImag1 =    8
+rReal2 =   10, rImag2 =    6
+rReal_1 =   19, rImag_1 =    5
+rReal_2 =   -3, rImag_2 =   11
+wReal =   89, wImag =  -89, index = 1
+Time7: 145000 ns
+rReal1 =   -4, rImag1 =    4
+rReal2 =   -4, rImag2 =    4
+rReal_1 =    0, rImag_1 =    8
+rReal_2 =   -8, rImag_2 =    0
+wReal =    0, wImag = -127, index = 2
+Time7: 145000 ns
+rReal1 =   -4, rImag1 =    4
+rReal2 =   -4, rImag2 =    4
+rReal_1 =    2, rImag_1 =    4
+rReal_2 =  -10, rImag_2 =    4
+wReal =  -89, wImag =  -89, index = 3
+t = 0, j = 0, y = 0
+buffer_real[0] =    0, buffer_img[0] =   16
+buffer_real[4] =    8, buffer_img[4] =    8
+t = 0, j = 1, y = 0
+buffer_real[1] =    2, buffer_img[1] =   14
+buffer_real[5] =   10, buffer_img[5] =    6
+t = 0, j = 2, y = 0
+buffer_real[2] =    4, buffer_img[2] =   12
+buffer_real[6] =   12, buffer_img[6] =    4
+t = 0, j = 3, y = 0
+buffer_real[3] =    6, buffer_img[3] =   10
+buffer_real[7] =   14, buffer_img[7] =    2
+t = 1, j = 0, y = 0
+buffer_real[8] =   12, buffer_img[8] =   20
+buffer_real[10] =   -4, buffer_img[10] =    4
+t = 1, j = 0, y = 1
+buffer_real[12] =    0, buffer_img[12] =    8
+buffer_real[14] =   -8, buffer_img[14] =    0
+t = 1, j = 1, y = 0
+buffer_real[9] =   16, buffer_img[9] =   16
+buffer_real[11] =   -4, buffer_img[11] =    4
+t = 1, j = 1, y = 1
+buffer_real[13] =    0, buffer_img[13] =    8
+buffer_real[15] =   -8, buffer_img[15] =    0
+t = 2, j = 0, y = 0
+buffer_real[16] =   10, buffer_img[16] =   22
+buffer_real[17] =   -2, buffer_img[17] =    2
+t = 2, j = 0, y = 1
+buffer_real[18] =   19, buffer_img[18] =    5
+buffer_real[19] =   -3, buffer_img[19] =   11
+t = 2, j = 0, y = 2
+buffer_real[20] =    0, buffer_img[20] =    8
+buffer_real[21] =   -8, buffer_img[21] =    0
+t = 2, j = 0, y = 3
+buffer_real[22] =    2, buffer_img[22] =    4
+buffer_real[23] =  -10, buffer_img[23] =    4
+Time2: 165000 ns, state: 2
+Time7: 235000 ns
+rReal1 =   12, rImag1 =   20
+rReal2 =    0, rImag2 =    8
+rReal_1 =   12, rImag_1 =   28
+rReal_2 =   12, rImag_2 =   12
+wReal =  127, wImag =    0, index = 0
+Time7: 235000 ns
+rReal1 =   16, rImag1 =   16
+rReal2 =    0, rImag2 =    8
+rReal_1 =   16, rImag_1 =   24
+rReal_2 =   16, rImag_2 =    8
+wReal =  127, wImag =    0, index = 0
+Time7: 235000 ns
+rReal1 =   -4, rImag1 =    4
+rReal2 =   -8, rImag2 =    0
+rReal_1 =  -12, rImag_1 =    4
+rReal_2 =    4, rImag_2 =    4
+wReal =  127, wImag =    0, index = 0
+Time7: 235000 ns
+rReal1 =   -4, rImag1 =    4
+rReal2 =   -8, rImag2 =    0
+rReal_1 =  -12, rImag_1 =    4
+rReal_2 =    4, rImag_2 =    4
+wReal =  127, wImag =    0, index = 0
+Time7: 235000 ns
+rReal1 =   12, rImag1 =   20
+rReal2 =   -4, rImag2 =    4
+rReal_1 =    8, rImag_1 =   24
+rReal_2 =   16, rImag_2 =   16
+wReal =  127, wImag =    0, index = 0
+Time7: 235000 ns
+rReal1 =    0, rImag1 =    8
+rReal2 =   -8, rImag2 =    0
+rReal_1 =    0, rImag_1 =   16
+rReal_2 =    0, rImag_2 =    0
+wReal =    0, wImag = -127, index = 2
+Time7: 235000 ns
+rReal1 =   16, rImag1 =   16
+rReal2 =   -4, rImag2 =    4
+rReal_1 =   12, rImag_1 =   20
+rReal_2 =   20, rImag_2 =   12
+wReal =  127, wImag =    0, index = 0
+Time7: 235000 ns
+rReal1 =    0, rImag1 =    8
+rReal2 =   -8, rImag2 =    0
+rReal_1 =    0, rImag_1 =   16
+rReal_2 =    0, rImag_2 =    0
+wReal =    0, wImag = -127, index = 2
+Time7: 235000 ns
+rReal1 =   12, rImag1 =   20
+rReal2 =   16, rImag2 =   16
+rReal_1 =   28, rImag_1 =   36
+rReal_2 =   -4, rImag_2 =    4
+wReal =  127, wImag =    0, index = 0
+Time7: 235000 ns
+rReal1 =   -4, rImag1 =    4
+rReal2 =   -4, rImag2 =    4
+rReal_1 =   -4, rImag_1 =   10
+rReal_2 =   -4, rImag_2 =   -2
+wReal =   89, wImag =  -89, index = 1
+Time7: 235000 ns
+rReal1 =    0, rImag1 =    8
+rReal2 =    0, rImag2 =    8
+rReal_1 =    8, rImag_1 =    8
+rReal_2 =   -8, rImag_2 =    8
+wReal =    0, wImag = -127, index = 2
+Time7: 235000 ns
+rReal1 =   -8, rImag1 =    0
+rReal2 =   -8, rImag2 =    0
+rReal_1 =   -2, rImag_1 =    6
+rReal_2 =  -14, rImag_2 =   -6
+wReal =  -89, wImag =  -89, index = 3
+t = 0, j = 0, y = 0
+buffer_real[0] =   12, buffer_img[0] =   28
+buffer_real[4] =   12, buffer_img[4] =   12
+t = 0, j = 1, y = 0
+buffer_real[1] =   16, buffer_img[1] =   24
+buffer_real[5] =   16, buffer_img[5] =    8
+t = 0, j = 2, y = 0
+buffer_real[2] =  -12, buffer_img[2] =    4
+buffer_real[6] =    4, buffer_img[6] =    4
+t = 0, j = 3, y = 0
+buffer_real[3] =  -12, buffer_img[3] =    4
+buffer_real[7] =    4, buffer_img[7] =    4
+t = 1, j = 0, y = 0
+buffer_real[8] =    8, buffer_img[8] =   24
+buffer_real[10] =   16, buffer_img[10] =   16
+t = 1, j = 0, y = 1
+buffer_real[12] =    0, buffer_img[12] =   16
+buffer_real[14] =    0, buffer_img[14] =    0
+t = 1, j = 1, y = 0
+buffer_real[9] =   12, buffer_img[9] =   20
+buffer_real[11] =   20, buffer_img[11] =   12
+t = 1, j = 1, y = 1
+buffer_real[13] =    0, buffer_img[13] =   16
+buffer_real[15] =    0, buffer_img[15] =    0
+t = 2, j = 0, y = 0
+buffer_real[16] =   28, buffer_img[16] =   36
+buffer_real[17] =   -4, buffer_img[17] =    4
+t = 2, j = 0, y = 1
+buffer_real[18] =   -4, buffer_img[18] =   10
+buffer_real[19] =   -4, buffer_img[19] =   -2
+t = 2, j = 0, y = 2
+buffer_real[20] =    8, buffer_img[20] =    8
+buffer_real[21] =   -8, buffer_img[21] =    8
+t = 2, j = 0, y = 3
+buffer_real[22] =   -2, buffer_img[22] =    6
+buffer_real[23] =  -14, buffer_img[23] =   -6
+Time2: 255000 ns, state: 2
+real_data[0] =   28, img_data[0] =   36
+real_data[1] =   -4, img_data[1] =    4
+real_data[2] =   -4, img_data[2] =   10
+real_data[3] =   -4, img_data[3] =   -2
+real_data[4] =    8, img_data[4] =    8
+real_data[5] =   -8, img_data[5] =    8
+real_data[6] =   -2, img_data[6] =    6
+real_data[7] =  -14, img_data[7] =   -6
+Time3: 275000 ns, finish_count:  4, state: 4
+Time3: 295000 ns, count:   1, state: 6, real: 28, imag: 36
+Time3: 315000 ns, count:   2, state: 6, real: 8, imag: 8
+Time3: 335000 ns, count:   3, state: 6, real: -4, imag: 10
+Time3: 355000 ns, count:   4, state: 6, real: -2, imag: 6
+Time3: 375000 ns, count:   5, state: 6, real: -4, imag: 4
+Time3: 395000 ns, count:   6, state: 6, real: -8, imag: 8
+Time3: 415000 ns, count:   7, state: 6, real: -4, imag: -2
+Time3: 435000 ns, count:   8, state: 6, real: -14, imag: -6
+$stop called at time : 445 ns : File "C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.srcs/sim_1/new/fft_tb.v" Line 87

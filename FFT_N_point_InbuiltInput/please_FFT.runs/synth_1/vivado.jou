@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Mon May 12 00:56:40 2025
+# Process ID: 28400
+# Current directory: C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.runs/synth_1
+# Command line: vivado.exe -log fft.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source fft.tcl
+# Log file: C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.runs/synth_1/fft.vds
+# Journal file: C:/Users/Raman/Downloads/New folder/please_FFT/please_FFT.runs/synth_1\vivado.jou
+# Running On        :Raman
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :26100
+# Processor Detail  :12th Gen Intel(R) Core(TM) i7-12700
+# CPU Frequency     :2112 MHz
+# CPU Physical cores:12
+# CPU Logical cores :20
+# Host memory       :16833 MB
+# Swap memory       :11283 MB
+# Total Virtual     :28117 MB
+# Available Virtual :2022 MB
+#-----------------------------------------------------------
+source fft.tcl -notrace
